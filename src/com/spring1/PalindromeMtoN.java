@@ -11,7 +11,6 @@ public class PalindromeMtoN {
         System.out.println("Enter the second range: ");
         int secondRange = sc.nextInt();
         sc.close();
-
         calculatePalindrome(firstRange,secondRange);
     }
     static void calculatePalindrome( int range1 , int range2){
